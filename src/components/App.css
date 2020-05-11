@@ -1,0 +1,69 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}
+.app{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-top: 20px;
+  width: 100vw;
+  height: calc(100vh - 20px);
+  background-color: lightsteelblue;
+}
+
+.app input, .app button{
+  padding: 10px 10px;
+  border: 2px solid rgb(11, 100, 189);
+  font-size: 18px;
+}
+.app input{
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  outline: none;
+}
+
+.app button{
+  background-color: rgb(11, 100, 189);
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+.result{
+  width: 100%;
+  max-width: 300px;
+  margin: 20px;
+  padding: 20px;
+  border: 2px solid rgb(11, 100, 189);
+  border-radius: 12px;
+  
+}
+.result h1{
+  font-weight: 700;
+  font-size: 40px;
+}
+.result .icon{
+  display: block;
+  margin: 0 auto;
+  width: 60px;
+}
+
+.result .temp{
+  margin: 20px;
+  font-weight: 700;
+  font-size: 48px;
+  color: rgb(11, 100, 189);
+}
+
+.result h3, .result h4{
+  font-weight: normal;
+}
+.result span{
+  font-weight: 700;
+  color: rgb(11, 100, 189);
+}
